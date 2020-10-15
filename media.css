@@ -1,9 +1,11 @@
 /*Start Media 1040px*/
 @media only screen and (max-width: 1040px) {
+
 	h1.heading {
 		font-size: 2.3rem;
 	}
 
+	h1.heading,
 	.holder {
 		width: 480px;
 	}
@@ -22,11 +24,16 @@
 /*Start Media 550px*/
 @media only screen and (max-width: 550px) {
 	h1.heading {
-		font-size: 2rem;
+		font-size: 1.9rem;
+	}
+	h1.heading,
+	.holder {
+		/*width: 230px;*/
+		padding: 0 20px;
 	}
 
-	.holder {
-		width: 230px;
+	.person {
+		width: 100%;
 	}
 
 	.person:not(:last-child) {

@@ -10,20 +10,29 @@ body {
 	position: relative;
 	margin: 0;
 	padding: 0;
-	height: 1600px;
+	/*height: 1600px;*/
 }
 
 /*End general settings*/
 
 h1.heading {
 	font-family: Lemonada, serif;
+	width: 980px;
 	text-align: center;
 	line-height: 60px;
-	font-size: 2.8rem;
-	color: #58B19F;
+	font-size: 2.7rem;
+	color: #ff8859;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-	margin: 50px 0;
+	margin: 50px auto;
+}
+
+h1.heading img:nth-child(1) {
+	float: left;
+}
+
+h1.heading img:nth-child(2) {
+	float: right;
 }
 
 .holder {
@@ -87,7 +96,6 @@ h1.heading {
 .person .links a:not(:last-child) {
 	margin-right: 5px;
 }
-
 /*End Person*/
 
 /*Start Footer*/
@@ -95,18 +103,23 @@ footer {
 	text-align: center;
 	position: fixed;
 	bottom: 0;
-	padding: 10px 0 25px 0;
-	background-color: #2C3A47;
-	color: #F8EFBA;
+	padding: 10px 0;
+	background-color: #f2f2f2;
+	/*color: #F8EFBA;*/
 	width: 100%;
 	word-spacing: 3px;
 	letter-spacing: 2px;
 }
+footer img {
+	width: 24px;
+}
 footer a {
-	color: #f1f1f1;
-	text-decoration: none;
+	color: #ff4a4a;
 }
 footer a:hover {
-	text-decoration: underline;
+	text-decoration: none;
+}
+footer a:visited {
+	color: #ff4a4a;
 }
 /*End Footer*/
