@@ -6,17 +6,16 @@
 }
 
 body {
-	font-family: arial;
+	font-family: arial, sans-serif;
 	position: relative;
 	margin: 0;
 	padding: 0;
-	/*height: 1600px;*/
 }
 
 /*End general settings*/
 
 h1.heading {
-	font-family: Lemonada, serif;
+	font-family: 'Lemonada', cursive;
 	width: 980px;
 	text-align: center;
 	line-height: 60px;
@@ -73,8 +72,8 @@ h1.heading img:nth-child(2) {
 	-ms-user-select: none;
 }
 
-.person h3{
-	font-family: Consolas,arial;
+.person h3 {
+	font-family: 'Consolas', serif;
 	font-size: 1.2rem;
 	letter-spacing: 1.5px;
 	text-align: center;
