@@ -100,26 +100,21 @@ h1.heading img:nth-child(2) {
 
 /*Start Footer*/
 footer {
+	width: 100%;
 	text-align: center;
 	position: fixed;
 	bottom: 0;
-	padding: 10px 0;
-	background-color: #f2f2f2;
-	/*color: #F8EFBA;*/
-	width: 100%;
-	word-spacing: 3px;
-	letter-spacing: 2px;
-}
-footer img {
-	width: 24px;
+	font-weight: bold;
+	padding: 10px;
+	color: #FFF;
+	background-color: #999;
+	border-top-left-radius: 13px;
+	border-top-right-radius: 13px;
 }
 footer a {
-	color: #ff4a4a;
-}
-footer a:hover {
-	text-decoration: none;
+	color: red;
 }
 footer a:visited {
-	color: #ff4a4a;
+	color: pink;
 }
 /*End Footer*/
