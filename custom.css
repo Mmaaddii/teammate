@@ -1,0 +1,112 @@
+
+/*Start general settings */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 1600px;
+}
+
+/*End general settings*/
+
+h1.heading {
+	font-family: Lemonada, serif;
+	text-align: center;
+	line-height: 60px;
+	font-size: 2.8rem;
+	color: #58B19F;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin: 50px 0;
+}
+
+.holder {
+	width: 980px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+/*Start Person*/
+.person {
+	width: 230px;
+    background-color: #f2f2f259;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 2px solid #dcd9d9;
+    float: left;
+    cursor: default;
+}
+
+.person:not(:last-child) {
+	margin-right: 20px;
+}
+
+.person:hover {
+	border-color: #c6bebe;
+}
+
+.person img.avatar {
+	width: 82px;
+	text-align: center;
+	margin: auto;
+	display: block;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.person h3{
+	font-family: Consolas,arial;
+	font-size: 1.2rem;
+	letter-spacing: 1.5px;
+	text-align: center;
+	color: #2C3A47;
+}
+
+.person p {
+	text-align: center;
+	line-height: 19px;
+	font-size: .9rem;
+	color: #34495e;
+}
+
+.person .links {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.person .links a:not(:last-child) {
+	margin-right: 5px;
+}
+
+/*End Person*/
+
+/*Start Footer*/
+footer {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	padding: 10px 0 25px 0;
+	background-color: #2C3A47;
+	color: #F8EFBA;
+	width: 100%;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+}
+footer a {
+	color: #f1f1f1;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+/*End Footer*/

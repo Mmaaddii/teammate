@@ -1,0 +1,37 @@
+/*Start Media 1040px*/
+@media only screen and (max-width: 1040px) {
+	h1.heading {
+		font-size: 2.3rem;
+	}
+
+	.holder {
+		width: 480px;
+	}
+
+	.person:nth-child(even) {
+		margin-right: 0;
+	}
+
+	.person:not(:last-child) {
+		margin-bottom: 20px;
+	}
+
+}
+/*End Media 1040px*/
+
+/*Start Media 550px*/
+@media only screen and (max-width: 550px) {
+	h1.heading {
+		font-size: 2rem;
+	}
+
+	.holder {
+		width: 230px;
+	}
+
+	.person:not(:last-child) {
+		margin-bottom: 20px;
+	}
+
+}
+/*End Media 550px*/
